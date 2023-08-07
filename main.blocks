@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="|E[eFvrL6QF?Ko3ShK~w">造型</variable></variables><block type="device_gesture_event" id="KS4LRp{aTk`-.OpwA;4Z" x="0" y="0"><field name="NAME">Gesture.ThreeG</field><statement name="HANDLER"><block type="variables_set" id="u!%J]=;Prkbg!0*x%rWc"><field name="VAR" id="|E[eFvrL6QF?Ko3ShK~w">造型</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="gy`U|gVP}#oG,n,/[L0e"><value name="min"><shadow type="math_number" id="1`BiKy_Wh=2$.O%u^f}v"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="EG3C.l~]b7hx:Du4O^Rt"><field name="NUM">3</field></shadow></value></block></value><next><block type="controls_if" id="kK.hUfrXi)XzS5IIREfo"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="qlhsSL%)CgzZ7;6m_ddB"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id=")$9wELsoujvN?Ch^s8(y"><field name="VAR" id="|E[eFvrL6QF?Ko3ShK~w">造型</field></block></value><value name="B"><shadow type="math_number" id="ySI3,;%sn/+n]sL@C)7n"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="2nk;T(H`y|tKE/dqk?pU"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field></block></statement><next><block type="controls_if" id="}dLiX*mW41pSQifG1wz["><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id=";$JU:H[@5F@FVu%]cVti"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="=/tgjY4a*BC;nMDyYoI~"><field name="VAR" id="|E[eFvrL6QF?Ko3ShK~w">造型</field></block></value><value name="B"><shadow type="math_number" id="kT%s0KE?{lAF[dJ`$zVu"><field name="NUM">2</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="~UfTRS65_~$8R3jRhAx#"><field name="LEDS">`
+        # # . . # 
+        # # . # . 
+        . . # . . 
+        # # . # . 
+        # # . . #
+        `</field></block></statement><next><block type="controls_if" id="x/i4!b0~LE,rSD}ijr=k"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="(0*^vt#Z}5x`~.NoOTYi"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="WjnYmocA}7wqN)Xvqxt9"><field name="VAR" id="|E[eFvrL6QF?Ko3ShK~w">造型</field></block></value><value name="B"><shadow type="math_number" id="79+[tRP9F,H-Hzf51;F$"><field name="NUM">3</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="ole@bhMC+MAc!/KdjU[3"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field></block></statement></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="D`|K?-`os9{.g;!Tgc6:" x="353" y="174"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="music_playable_play_default_bkg" id="^j~)kMu4xLYfJ,_kLior"><field name="playbackMode">music.PlaybackMode.InBackground</field><value name="toPlay"><shadow type="device_builtin_melody_playable" id="7{2f*#j/NaJr/jjgY+e)"><field name="melody">Melodies.Dadadadum</field></shadow></value><next><block type="device_show_leds" id="oqS8:|Cgw2j!`D0AAz#-"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></statement></block><block type="device_button_event" id="nlbY1iBP3qD{Lr+bkPF)" x="580" y="299"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="basic_show_icon" id=",AN%;ouU4spBjAQJl;Dw"><field name="i">IconNames.Happy</field></block></statement></block></xml>
